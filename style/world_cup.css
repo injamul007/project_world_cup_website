@@ -74,12 +74,12 @@
   margin-bottom: 50px;
 }
 .upcoming_matches_left {
-  max-width: 25%;
-  width: 312px;
-  height: 312px;
+  width: 25%;
+  width: 100%;
+  height: fit-content;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
   border-radius: 10px;
@@ -139,6 +139,13 @@
 }
 .view_time_section i {
   margin-right: 10px;
+}
+.view_all_btn {
+  display: none;
+}
+.view_all_btn button {
+  background-color: #dd0000;
+  color: white;
 }
 /*? upcoming matches section ends here */
 /*? main section ends here */
@@ -283,7 +290,6 @@
     height: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px solid salmon;
     padding-left: 2%;
   }
   .banner_left h2 {
@@ -299,6 +305,31 @@
   .banner_right {
     width: 323px;
     height: 348px;
+  }
+  .upcoming_matches {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .upcoming_matches_left {
+    max-width: 98%;
+    margin: 0 auto;
+    flex-direction: row;
+    background-color: white;
+  }
+  .upcoming_matches_left :nth-child(1),
+  .upcoming_matches_left :nth-child(2) {
+    border: 2px solid rgb(233, 232, 232);
+    background-color: transparent;
+  }
+  .card_box {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+  .view_all_btn {
+    margin-block: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
