@@ -62,10 +62,22 @@
 }
 .banner_right {
   height: 600px;
+  animation: banner_img_scale_up 1s ease-in-out 4;
 }
 .banner_right img {
   height: 100%;
 }
+
+/*? animation for banner image */
+@keyframes banner_img_scale_up {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.03) translateY(-10px);
+  }
+}
+/*? animation for banner image */
 /* banner section ends here */
 /* header section ends here */
 /*? main section starts here */
