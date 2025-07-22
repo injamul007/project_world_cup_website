@@ -40,6 +40,9 @@
   font-family: "Poppins", sans-serif;
 }
 .banner_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 568px;
   height: 424px;
   padding-left: 50px;
@@ -51,7 +54,7 @@
 .banner_left p {
   font-size: 1rem;
   font-weight: 500;
-  margin-block: 20px;
+  margin-block: 30px;
 }
 .banner_left button {
   color: white;
@@ -221,6 +224,7 @@
     padding-left: 6px;
     margin-top: 30px;
     margin-bottom: 50px;
+    align-items: center;
   }
   .banner_left h2 {
     font-size: 1.6rem;
@@ -330,6 +334,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .inner_footer_section {
+    max-width: 80%;
+  }
+  .footer_nav_links {
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer_nav_links a {
+    font-size: 0.9rem;
   }
 }
 
