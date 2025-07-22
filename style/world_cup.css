@@ -269,7 +269,37 @@
 
 /*? Responsive media query for Medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  
+  .container {
+    max-width: 94%;
+    margin: 0 auto;
+  }
+  .banner {
+    gap: 2px;
+    justify-content: center;
+  }
+  .banner_left {
+    max-width: 50%;
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid salmon;
+    padding-left: 2%;
+  }
+  .banner_left h2 {
+    font-size: 2.3rem;
+  }
+  .banner_left p {
+    font-size: 0.9rem;
+  }
+  .btn {
+    width: 160px;
+    height: 48px;
+  }
+  .banner_right {
+    width: 323px;
+    height: 348px;
+  }
 }
 
 /*? Responsive media query for Medium devices */
