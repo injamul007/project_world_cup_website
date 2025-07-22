@@ -20,6 +20,14 @@
 /*? css common property */
 
 /* header section starts here */
+/* navbar section starts here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+/* navbar section ends here */
 /* banner section starts here */
 .banner {
   display: flex;
