@@ -63,6 +63,7 @@
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  margin-bottom: 50px;
 }
 .upcoming_matches_left {
   max-width: 25%;
@@ -133,3 +134,41 @@
 }
 /*? upcoming matches section ends here */
 /*? main section ends here */
+/*? footer section starts here */
+.footer_section {
+  background-color: #161616;
+  height: 444px;
+  color: white;
+  text-align: center;
+}
+.inner_footer_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.footer_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(168, 166, 166);
+}
+.footer_nav_links {
+  display: flex;
+  gap: 36px;
+  padding-top: 30px;
+}
+.footer_nav_links li {
+  list-style: none;
+}
+.footer_nav_links a {
+  font-family: "Poppins", sans-serif;
+  color: rgb(187, 184, 184);
+  text-decoration: none;
+}
+/*? footer section starts here */
