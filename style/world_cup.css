@@ -183,10 +183,6 @@
 
 /*? Responsive media query for small devices */
 
-.display_none {
-  display: none;
-}
-
 @media screen and (max-width: 576px) {
   .container {
     max-width: 94%;
@@ -257,6 +253,16 @@
   }
   .card_box {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .inner_footer_section {
+    max-width: 80%;
+  }
+  .footer_nav_links {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer_nav_links a {
+    font-size: 0.86rem;
   }
 }
 /*? Responsive media query for small devices */
