@@ -20,14 +20,6 @@
 /*? css common property */
 
 /* header section starts here */
-/* navbar section starts here */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  display: none;
-}
-/* navbar section ends here */
 /* banner section starts here */
 .banner {
   display: flex;
@@ -209,19 +201,6 @@
   .container {
     max-width: 94%;
     margin: 0 auto;
-  }
-  .navbar {
-    display: block;
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
-  }
-  .navbar span {
-    font-size: 1.1rem;
-  }
-  .nav_icons {
-    display: flex;
-    gap: 10px;
   }
   .banner {
     flex-direction: column;
